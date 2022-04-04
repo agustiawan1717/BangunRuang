@@ -15,15 +15,21 @@ class MainActivity : AppCompatActivity() {
 
         btn_kubus = findViewById(R.id.btnkubus)
         btn_balok = findViewById(R.id.btnbalok)
+        
+        // memberi action pada button kubus dan balok
 
         btn_kubus.setOnClickListener {
             var intent = Intent(this, KubusActivity::class.java)
             startActivity(intent)
+            
+            // untuk mengaktifkan intents pada kubus
         }
 
         btn_balok.setOnClickListener {
             var intent = Intent(this, BalokActivity::class.java)
             startActivity(intent)
+            
+            // untuk mengaktifkan intents pada balok
         }
     }
 }
