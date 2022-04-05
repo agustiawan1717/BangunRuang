@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/images"
+    tools:context=".BalokActivity">
+
+    <TextView
+        android:text="Panjang"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:textStyle="bold"
+        android:id="@+id/tv_panjang"/>
+
+    <EditText
+        android:id="@+id/ed_panjang"
+        android:layout_width="match_parent"
+        android:layout_height="36dp"
+        android:background="#E6E1ED"
+        android:ems="10"
+        android:inputType="numberDecimal" />
+
+    <TextView
+        android:text="Tinggi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:textStyle="bold"
+        android:id="@+id/tv_tinggi"/>
+
+    <EditText
+        android:id="@+id/ed_tinggi"
+        android:layout_width="match_parent"
+        android:layout_height="38dp"
+        android:background="#E6E1ED"
+        android:ems="10"
+        android:inputType="numberDecimal" />
+
+    <TextView
+        android:text="Lebar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:textStyle="bold"
+        android:id="@+id/tv_lebar"/>
+
+    <EditText
+        android:id="@+id/ed_lebar"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:background="#E6E1ED"
+        android:ems="10"
+        android:inputType="numberDecimal" />
+
+
+    <Button
+        android:text="@string/hitung"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/teal_200"
+        android:id="@+id/btn_hitung_balok"/>
+
+    <TextView
+        android:id="@+id/tv_hasil"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="#E6E1ED"
+        android:text="Hasil"
+        android:textSize="25dp"
+        android:textStyle="bold" />
+
+</LinearLayout>

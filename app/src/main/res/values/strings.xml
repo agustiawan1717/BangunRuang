@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">BangunRuang</string>
+    <string name="hitung_volume_bola">Volume bola</string>
+    <string name="hitung_volume_tabung">Volume tabung</string>
+    <string name="hitung_volume_kerucut">Volume kerucut</string>
+    <string name="hitung_volume_limas">Volume limas</string>
+    <string name="hitung_volume_prisma">Volume prisma</string>
+    <string name="hitung_volume_balok">Volume balok</string>
+    <string name="hitung_volume_kubus">Volume Kubus</string>
+    <string name="hitung">Hitung</string>
+    <string name="sisi">Sisi</string>
+    <string name="title_activity_prisma">PrismaActivity</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+</resources>
